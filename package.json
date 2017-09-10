@@ -1,0 +1,37 @@
+{
+  "name": "bror",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.0.13"
+  },
+  "dependencies": {
+    "apollo-client": "^1.9.2",
+    "flow-bin": "^0.54.1",
+    "graphql-tag": "^2.4.2",
+    "moment": "^2.18.1",
+    "noty": "^3.1.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-addons-shallow-compare": "^15.6.0",
+    "react-apollo": "^1.4.15",
+    "react-dates": "^12.6.0",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^3.0.5",
+    "react-router-redux": "^4.0.8",
+    "recharts": "^1.0.0-alpha.4",
+    "redux": "^3.7.2",
+    "redux-persist": "^4.9.1",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  },
+  "proxy": "http://localhost:3000"
+}

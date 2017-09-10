@@ -1,0 +1,119 @@
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./fonts/Metropolis-Bold.eot');
+  src: url('./fonts/Metropolis-Bold.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/Metropolis-Bold.woff2') format('woff2'),
+  url('./fonts/Metropolis-Bold.woff') format('woff'),
+  url('./fonts/Metropolis-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./fonts/Metropolis-Regular.eot');
+  src: url('./fonts/Metropolis-Regular.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/Metropolis-Regular.woff2') format('woff2'),
+  url('./fonts/Metropolis-Regular.woff') format('woff'),
+  url('./fonts/Metropolis-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./fonts/Metropolis-Light.eot');
+  src: url('./fonts/Metropolis-Light.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/Metropolis-Light.woff2') format('woff2'),
+  url('./fonts/Metropolis-Light.woff') format('woff'),
+  url('./fonts/Metropolis-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+body, html {
+  font-size: 16px;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 320px;
+  font-family: 'Metropolis',sans-serif;
+  font-weight: normal;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+input {
+  font-size: 16px;
+}
+
+button {
+  -webkit-appearance: none;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-weight: normal;
+}
+
+li {
+  list-style-type: none;
+}
+label {
+  margin-bottom: 5px;
+  display: block;
+  color: #CCC;
+}
+
+.u-thin {
+  font-weight: 300;
+}
+
+.u-bold {
+  font-weight: bold;
+}
+
+.u-upper {
+  text-transform: uppercase;
+}
+
+.u-padding {
+  padding: 25px;
+}
+
+body .SingleDatePickerInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #333e67;
+}
+
+body .SingleDatePicker {
+  width: 100%;
+}
+
+body .DateInput {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+}
+
+body .DateInput__display-text--has-input {
+  color: white;
+}
+
+body .DateInput__display-text--focused {
+  color: #212121;
+
+}
+
